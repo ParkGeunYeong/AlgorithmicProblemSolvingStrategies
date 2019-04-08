@@ -13,5 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\설계 패러다임">
+      <UniqueIdentifier>{31d11656-5e1a-4e1c-bde6-de3656b60414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\설계 패러다임\무식하게 풀기%28완전 탐색%29">
+      <UniqueIdentifier>{d872b08b-fb73-4bd2-a235-dbe997bae79d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="6.2.cpp">
+      <Filter>소스 파일\설계 패러다임\무식하게 풀기%28완전 탐색%29</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="6.3PICNIC.cpp">
+      <Filter>소스 파일\설계 패러다임\무식하게 풀기%28완전 탐색%29</Filter>
+    </None>
   </ItemGroup>
 </Project>
