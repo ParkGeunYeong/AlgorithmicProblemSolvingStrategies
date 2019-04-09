@@ -17,7 +17,7 @@ int linkFriend(int n) {
 		}
 	}
 	if (isFin) return 1;
-	for (int i = makefriend+1; i < n; i++)
+	for (int i = makefriend + 1; i < n; i++)
 	{
 		if (!isChosen[i] && isFriend[i][makefriend]) {
 			isChosen[i] = isChosen[makefriend] = true;
@@ -33,14 +33,14 @@ int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
-	
+
 	int c, n, m;
 
 	cin >> c;
 	while (c--) {
 		cin >> n >> m;
 		int s1, s2;
-		for (int i = 0; i < m/2; i++)
+		for (int i = 0; i < m; i++)
 		{
 			cin >> s1 >> s2;
 			isFriend[s1][s2] = isFriend[s2][s1] = true;

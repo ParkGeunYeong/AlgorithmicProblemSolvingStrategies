@@ -19,15 +19,22 @@
     <Filter Include="소스 파일\설계 패러다임\무식하게 풀기%28완전 탐색%29">
       <UniqueIdentifier>{d872b08b-fb73-4bd2-a235-dbe997bae79d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\설계 패러다임\분할 정복">
+      <UniqueIdentifier>{691c4320-714f-4d1c-84b5-d44388dc36fa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="6.2.cpp">
+    <ClCompile Include="recursionTest.cpp">
       <Filter>소스 파일\설계 패러다임\무식하게 풀기%28완전 탐색%29</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="6.3PICNIC.cpp">
+    <ClCompile Include="PICNIC.cpp">
       <Filter>소스 파일\설계 패러다임\무식하게 풀기%28완전 탐색%29</Filter>
-    </None>
+    </ClCompile>
+    <ClCompile Include="QUADTREE.cpp">
+      <Filter>소스 파일\설계 패러다임\분할 정복</Filter>
+    </ClCompile>
+    <ClCompile Include="BOARDCOVER.cpp">
+      <Filter>소스 파일\설계 패러다임\무식하게 풀기%28완전 탐색%29</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
