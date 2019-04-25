@@ -70,7 +70,7 @@ int main() {
 	int c;
 	cin >> c;
 	while (c--) {
-		int h, w;
+		int h, w, cnt = 0;
 		cin >> h >> w;
 		char input;
 		for (int i = 0; i < h; i++)
@@ -79,7 +79,13 @@ int main() {
 			{
 				cin >> input;
 				if (input == '#') board[i][j] = true;
+				else cnt++;
 			}
+		}
+		if (cnt % 3 != 0) {
+			memset(board, false, sizeof(board));
+			cout << 0 << endl;
+			continue;
 		}
 		cout << covering(h, w) << endl;
 		memset(board, false, sizeof(board));
